@@ -1,4 +1,4 @@
-# GE-Grasp: Efficeint Target Oriented Grasping in Dense Clutters
+# GE-Grasp: Efficeint Target Oriented Grasping in Dense Clutter
 
 This repository is for the paper
 
