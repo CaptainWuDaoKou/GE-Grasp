@@ -8,7 +8,7 @@ This repository is for the paper
 Grasping in dense clutters is a fundamental skill for autonomous robots. However, the crowdedness and occlusions in the cluttered scenario cause significant difficulties to generate valid grasp poses without collisions, which results in low efficiency and high failure rates. To address these, we present a generic framework called GE-Grasp for grasp pose generation in dense clutters, where we leverage diverse action primitives for occluded object removal and present the generator-evaluator architecture to avoid spatial collisions. Therefore, our GE-Grasp is capable of grasping objects in dense clutters efficiently with promising success rates. Specifically, we define three action primitives: target-oriented grasping for picking up the target directly, pushing and nontarget-oriented grasping to reduce the crowdedness and occlusions. The generators select the preferred action primitive set via a spatial correlation test (SCT), which effectively provide various motion candidates aiming at grasping target objects in clutters. Meanwhile, the evaluators assess the selected action primitive candidates, where optimal action is implemented by the robot. 
 
 <p align="center">
-    <img src="./images/overview.png" width=100% alt="overview">
+    <img src="./overview.png" width=100% alt="overview">
     <i>System Overview</i>  
 </p>
 
